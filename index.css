@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    
+
+}
+
+main{
+    height: 100vh;
+    width: 100%;
+
+
+}
+section{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+form{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 500px;
+    width: 500px;
+    color: white;
+    border-radius: 20px 0px 0px 20px ;
+    padding: 20px;
+    background-color: black;
+}
+.flex *{
+    padding: 05px;
+}
+input{
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: transparent;
+    
+}
+.flex span{
+    width: 100%;
+}
+
+.icon{
+    display: flex;
+    gap: 0px 10px;
+
+}
+.icon input{
+   margin: 0px 0px;
+   width: 30%;
+}
+.icon i{
+    padding: 05px;
+}
+#eyeicon{
+    width: 30%;
+}
+
+
+.container2{
+
+    height: 500px;
+    width: 400px;
+    
+    background-color: gold;
+    background-image: url(./627d07ea8a632ca996477e81.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 0px 20px 20px 0px ;
+
+}
+input[type=date]{
+    color: gray;
+}
+.container2 h2{
+    text-align: center;
+    padding: 20px;
+    color: rgb(255, 0, 0);
+
+}
+.select{
+    display: flex;
+    border: 1px solid;
+    border-radius: 20px;
+    
+
+}
+.select>select{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: gray;
+}
+.select>input{
+    outline: none;
+
+    width: 90%;
+    border: none;
+
+}
+form span:last-child{
+    text-align: center;
+
+}
+form>div h5{
+    padding: 10px 0px;
+}
+form>div h4{
+    padding: 10px 0px;
+    color:gold;
+}
+.color{
+    color: yellow;
+}
+form>button{
+      color: white;
+      background-image: linear-gradient( to right,red 50%,yellow);
+      border-radius: 20px;
+      border-color: red;
+    margin: 0px 20px;
+    padding: 05px;
+
+}
+input:valid{
+    color: rgb(255, 255, 255);
+}
+@media screen and (min-width:320px) and (max-width:600px){
+
+
+
+    main{
+        height: max-content;
+       padding: 10px;
+
+    }
+section{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    align-items: center;
+    
+
+}
+form{
+    height: 500px;
+    margin-bottom: 20px;
+    width: min(100%,500px);
+    border-radius: 0px 0px 20px 20px;
+     background-color: black;
+    
+
+}
+
+.container2{
+    width: min(100%,500px);
+    height: 100vh;
+    border-radius: 20px 20px 0px 0px;
+}
+
+
+}
+@media screen and (min-width:600px){
+    main{
+        padding: 20px;
+    }
+}
